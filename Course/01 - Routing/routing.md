@@ -1,13 +1,15 @@
 # FastAPI
 
-Routing is the process of handling HTTP requests. Here, it's manage by *APIRouter*
+## Routing
 
-To create a path operation, we must import *APIRouter* class from fastapi packaage with this code:
+    Routing is the process of handling HTTP requests. Here, it's manage by *APIRouter*
 
-```python
-from fastapi import APIRouter
+    To create a path operation, we must import *APIRouter* class from fastapi packaage with this code:
 
-todo_router = APIRouter()
-```
+    ```python
+    from fastapi import APIRouter
 
-After that, in our development environment, we'll create a temporary in-app database.
+    todo_router = APIRouter()
+    ```
+
+    After that, in our development environment, we'll create a temporary in-app database.

@@ -4,7 +4,7 @@ todo_router = APIRouter()
 
 todo_list = []
 
-@todo_router.post("/")
+@todo_router.post("/todo")
 async def add_todo(todo: dict) -> dict:
     todo_list.append(todo)
     return {"message": "Todo add successfully"}
