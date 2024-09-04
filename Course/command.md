@@ -18,3 +18,4 @@ update a todo with curl command:
 
 get a todo with curl command:
     `curl -X GET 'http://127.0.0.1:8000/todo/1' -H 'accept: application/json' -H 'Content-Type: application/json'`
+    `curl -X GET 'http://127.0.0.1:8000/todo/1' -H 'accept: application/json'`
