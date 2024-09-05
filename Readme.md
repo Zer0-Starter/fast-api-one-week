@@ -30,3 +30,7 @@ To enable the virtual environment install your application dependencies, create 
 To install FastAPI, add it on your requirements.txt file. After that, activate your virtual env and run the installation of your requirements packages. Then, run this command
 
 `pip install fastapi uvicorn`
+
+## About
+
+This part explore FastAPI by creating a simple Todo application
